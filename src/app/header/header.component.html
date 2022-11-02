@@ -1,0 +1,30 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <img class="brand cursor" routerLink="/"   src="	https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" >            
+            <div *ngIf="menuType==='default'">
+                <input #searchInput type="text" (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for products, brands and more">
+                <i (click)="submitSearch(searchInput.value)" style="color: blue;" class="bi bi-search"></i>
+                <ul *ngIf="searchResult" class="suggested-result">
+                    <li *ngFor="let item of searchResult">
+                        <a (mousedown)="redirectToDetails(item.id)">{{item.name}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div [ngSwitch]="menuType">
+                <ul *ngSwitchCase="'default'">
+                    <li><button class="btn btn-light">Login</button></li>
+                    <li><a routerLink="home">Home</a></li>
+                    <li><a routerLink="seller-auth">Become a Seller</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+                 <ul *ngSwitchCase="'seller'">
+                     <li class="cursor" style="margin-left: 600px;"><a routerLink="/seller-add-product">Add Products</a></li>
+                     <li class="cursor"><a routerLink="/seller-home">List</a></li>
+                     <li class="cursor"><a>{{sellerName | titlecase}}</a></li>
+                     <li><button (click)="logout()" class="btn btn-light">Logout</button></li>                    
+                </ul>
+            </div>
+        </div>             
+    </div>
+</header>

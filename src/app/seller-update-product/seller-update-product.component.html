@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <h2 style="margin:auto; color: blue; margin-top: 15px;">Update Product</h2>
+    </div>
+    <div class="row">
+        <p style="margin:auto; color: green; margin-top: 20px;">{{updateMessage}}</p>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
+                <div>
+                    <button class="btn btn-primary form-button">Update Product</button>
+                </div>
+                <div class="form-group">
+                    <label for="name">Product Name</label>
+                    <input type="text" required name="name" ngModel="{{productData?.name}}" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input required type="number" name="price" ngModel="{{productData?.price}}" class="form-control" id="price">
+                </div>
+                <div class="form-group">
+                    <label for="Color">Color</label>
+                    <input required type="text" name="color" ngModel="{{productData?.color}}" class="form-control" id="color">
+                </div>
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select required class="form-control" id="category" ngModel="{{productData?.category}}" name="category">
+                        <option>Mobiles</option>
+                        <option>Fashion</option>
+                        <option>Electronics</option>
+                        <option>Home</option>
+                        <option>Appliances</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image Url</label>
+                    <input required type="text" #imageurl name="image" ngModel="{{productData?.image}}" class="form-control" id="image">
+                    <img style="height: 230px; width:240px" [src]="imageurl.value" alt="enter image url">
+                </div>
+                <div class="form-group">
+                    <label for="description">Product Description</label>
+                    <textarea required class="form-control" id="description" ngModel="{{productData?.description}}" name="description"
+                        rows="3"></textarea>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>

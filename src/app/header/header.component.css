@@ -1,0 +1,66 @@
+.brand{
+    margin-left: 90px;
+    margin-right: -40px;
+ width: 100px;
+ height: 35px;
+}
+li a{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+.heading{
+    margin-left: 90px;
+    font-size: 30px;
+}
+.navbar{
+    height: 60px;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    padding-left: 35px;
+    margin-left: 70px;
+}
+ul li button{
+    width: 110px;
+    height: 33px;
+}
+
+input{
+    margin-left: 60px;
+    width: 560px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+i{
+    margin-left: -32px;
+}
+
+/* seachbar css  */
+.suggested-result{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 40px;
+    border: 1px solid #ddd;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.suggested-result li{
+    border: 1px solid #fff;
+    padding: 5px;
+}
+.suggested-result li a{
+    cursor: pointer;
+    color: black;
+}

@@ -1,0 +1,12 @@
+.signup, .login{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: rgba(41, 82, 246, 0.973);
+}
+.auth-toggle-link{
+    margin-top: 10px;
+    /* color: black; */
+    text-align: left;
+    cursor: pointer;
+}

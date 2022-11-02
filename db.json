@@ -1,0 +1,114 @@
+{
+  "seller": [
+    {
+      "name": "Umang",
+      "password": "123456",
+      "email": "umang8864gupta@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Rohan",
+      "password": "123456",
+      "email": "xyz@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Apples",
+      "password": "saasc",
+      "email": "umang8864gupta@gmail.co",
+      "id": 3
+    },
+    {
+      "name": "Twinkle",
+      "password": "123456",
+      "email": "abc@abc.com",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Apple Laptop",
+      "price": 80000,
+      "color": "White",
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80",
+      "description": "Core i7 , 12th gen",
+      "id": 3
+    },
+    {
+      "name": "Bag",
+      "price": 654,
+      "color": "Blue",
+      "category": "Fashion",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "description": "Hand Bag",
+      "id": 4
+    },
+    {
+      "name": "Iphone 11",
+      "price": 40000,
+      "color": "blue",
+      "category": "Mobiles",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2GX8a0ByvEAzXkWbIdqUZHVJSbPZprIZgvw&usqp=CAU",
+      "description": "Apple Iphone",
+      "id": 5
+    },
+    {
+      "name": "Jeans",
+      "price": "700",
+      "color": "Blue",
+      "category": "Fashion",
+      "image": "https://www.lee.in/media/catalog/product/cache/cfd25a8ad8ff195457b8a8e8fa9a3c65/l/3/l32142248147_1.jpg",
+      "description": "Best Jeans with cotton fabrics",
+      "id": 6
+    },
+    {
+      "name": "Shirt",
+      "price": "200",
+      "color": "Red",
+      "category": "Fashion",
+      "image": "https://www.scottdirect.com/media/catalog/product/t/e/tentsmuir_flannel_shirt_01.jpg",
+      "description": "Cotton Shirt",
+      "id": 7
+    },
+    {
+      "name": "Shirt",
+      "price": "500",
+      "color": "White",
+      "category": "Fashion",
+      "image": "https://images.bewakoof.com/uploads/grid/app/types-of-shirts-for-men-bewakoof-blog-10-1610963791.jpg",
+      "description": "Cotton pure white shirt",
+      "id": 8
+    },
+    {
+      "name": "Nike Shoes",
+      "price": 2000,
+      "color": "White",
+      "category": "Fashion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYPfqdWilILVPKQFsahV32xhul6ucOXcrSg&usqp=CAU",
+      "description": "Casual Shoes",
+      "id": 9
+    },
+    {
+      "name": "Addidas",
+      "price": 2100,
+      "color": "Black",
+      "category": "Fashion",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYb82x3h9FGWxhesVTsEAVtvcfOEEC3R7tfFjibREiikLn4MYkC7A8XQ7EazvMx4_qz30&usqp=CAU",
+      "description": "Sports Shoes",
+      "id": 10
+    },
+    {
+      "name": "Refrigerator",
+      "price": "20000",
+      "color": "Off-White",
+      "category": "Appliances",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSygCsCvFpdRE7q9TtYgvlXGx2uTAVReGgQRw&usqp=CAU",
+      "description": "300 Litre ",
+      "id": 11
+    }
+  ],
+  "user": [
+    {}
+  ]
+}
